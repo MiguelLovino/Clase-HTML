@@ -18,7 +18,14 @@
         }
         button.redondo {
             background-color: white;
-            border: 1px solid black;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 0px 20px;
+            height: 32px;
+        }
+        button.redondo2 {
+            background-color: white;
+            border: 2px solid #6b53f0;
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
@@ -30,27 +37,35 @@
     </style>
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
-        <div id="header-left">
+    <div id="header1" style="border-bottom: 1px solid gray; height: 80px; overflow: visible; top: 0px; padding-right: 30;" >
+    
+        <div id="header2" style="display: flex; justify-content: space-between; width: 1200px; height: 80px; margin: auto;">
+            <div id="header-left" style="padding-top: 20px;">
             <img src="logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <div id="header-right" style="display: flex; line-height: 1.2; font-weight: 500; padding-left: 0; padding-right: 80px; align-items: center; font-size: 13px; font-style: normal; font-family:Arial, Helvetica, sans-serif;">
+            
+                <p>Nosotros</p>
+                <p>Programas</p>
+                <p>Capacitaciones</p>
+                <p>Alianzas</p>
+                <p>Contacto</p>
+                <button class="redondo">Sumate +</button>
+            
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+</div>
+
+    <div id="introduction" style="padding: 80px;">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+            <h1 style="margin: auto; width: 576px; height: 100px; font-size: 28px; line-height: 1.2; font-family:Arial, Helvetica, sans-serif;">Somos una Fundación dedicada a mejorar <br>la calidad de vida de las personas y su <br> entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
+        <div id="introduction-actions" style="margin-top: 35px;">
             <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button class="redondo2" style="margin-left: 14px; color: #6b53f0;">Sumate +</button>
         </div>
     </div>
 </body>
 </html>
+
+
